@@ -1,0 +1,37 @@
+.navvv{
+    background-color: #323544 !important;
+    color: aliceblue !important;
+}
+.navvv a{
+    color: aliceblue !important; 
+    /* border: 1px snow solid !important; */
+    
+}
+body{
+    background-image:url(659159dce35d6846a23fbe2385f09378ffc6429a_hq.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+
+}
+.itemnaav{
+
+    border: 1px solid rgb(27, 7, 211);
+    border-radius: 50%;
+    color: rgb(27, 7, 211)!important;
+}
+.forecast-header{
+    background: rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+}
+
+.forecast{
+    background-color: #323544;
+}
+.imgw{
+    width: 25px;
+}
+.inpoutt{
+    background-color: #323544 !important;
+     color: aliceblue !important;
+}

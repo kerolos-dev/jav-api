@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css/all.min.css">
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/css/style.css">
+    <title>Document</title>
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  m-0  ">
+        <div class="container-fluid bg-black navvv ">
+            <img src="img/logo.png" alt="" class="logo  ms-5">
+          <a class="navbar-brand fw-bold  logo-hav text-white " href="#">  Weather<div><span>tagline goes here </span></div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto p-2 mb-2 mb-lg-0 me-5">
+              <li class="nav-item">
+                <a class="nav-link text-hav active me-2  itemnaav" aria-current="page" href="#Home">Home</a>
+            
+              </li>
+              <li class="nav-item">
+                
+                <a class="nav-link text-hav me-2   itemnaav" href="#AbouT">AbouT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-hav me-2  itemnaav" href="#services">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-hav me-2  itemnaav" href="#work">WORK</a>
+              </li>
+              <li class="nav-item">
+              </li>
+              <a class="nav-link text-hav me-2  itemnaav" href="#Clients">Clients</a>
+              <li class="nav-item">
+                <a class="nav-link text-hav me-2  itemnaav" href="#Blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-hav  itemnaav" href="#contact">contact</a>
+              </li>
+              
+          
+          </ul></div>
+        </div>
+      
+      </nav>
+
+     <section  >
+        <div class="contanier p-4 item ">
+          <form class="w-10 ">
+            <input class="inpoutt" oninput="serchapi(name.value)" type="text" placeholder="Find your location..." class=" w-75 bg-black text-white h-100 p-2">
+            <input class="inpoutt" type="button" value="Find" id="submit" class="p-2 text-danger bg-black">
+          </form>
+          
+        </div>
+      </section>
+      <section>
+        <div class="contanierr p-5">
+          <div class="row P-5">
+            <div class="col-md-3 text-center g-0  ">
+              <div class="today forecast ">
+                <div class="forecast-header  text-center m-5  " id="today">
+                <div class="day">Tuesday</div>
+                <div class=" date">21February</div>
+                </div> <!-- .forecast-header -->
+                <div class="forecast-content" id="current">
+              
+                <span class="text-white"><img src="img/download.png"  class=" imgw" alt="">20%</span>
+                            <span class="text-white"><img src="img/wind-14.png"  class="  imgw" alt="">18km/h</span>
+                             <span class="text-white"><img src="img/free-compass-icon-881-thumb.png"  class=" imgw"alt="">East</span>
+                </div> 
+            </div>
+            </div>
+            <div class="col-md-3 text-center g-0">
+              <div class="forecast">
+                <div class="forecast-header">
+                    <div class="day">Wednesday</div>
+                </div> <!-- .forecast-header -->
+                <div class="forecast-content">
+                    <div class="forecast-icon">
+                         <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                    </div>
+                    <div class="degree">24<sup>o</sup>C</div>
+                    <small>11.1<sup>o</sup></small>
+                    <div class="custom">Sunny</div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center  g-0">
+              <div class="forecast">
+                <div class="forecast-header">
+                    <div class="day">Thursday</div>
+                </div> <!-- .forecast-header -->
+                <div class="forecast-content">
+                    <div class="forecast-icon">
+                        <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                    </div>
+                    <div class="degree">23.7<sup>o</sup>C</div>
+                    <small>11.7<sup>o</sup></small>
+                    <div class="custom">Sunny</div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+</html>
